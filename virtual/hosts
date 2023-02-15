@@ -1,0 +1,33 @@
+---
+all:
+  children:
+    development:
+    amq:
+    db:
+    mariadb:
+    web:
+  vars:
+    ansible_user: vagrant
+    ansible_python_interpreter: auto_silent
+
+development:
+  hosts:
+    192.168.56.24:
+
+web:
+  hosts:
+    192.168.56.24:
+
+db:
+  hosts:
+    192.168.56.21:
+    192.168.56.22:
+
+mariadb:
+  hosts:
+    192.168.56.23:
+
+amq:
+  hosts:
+    192.168.56.23:
+
