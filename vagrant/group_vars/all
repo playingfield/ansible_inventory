@@ -1,0 +1,5 @@
+---
+java8_packages: []
+base_jdk: 'java-11'
+base_jdk_alternatives:
+  - 'java-11'

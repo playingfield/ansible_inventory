@@ -1,0 +1,12 @@
+all:
+  children:
+    web:
+    db:
+
+web:
+  hosts:
+    ansible01:
+
+db:
+  hosts:
+    ansible02:

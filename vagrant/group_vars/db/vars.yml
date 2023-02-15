@@ -1,0 +1,3 @@
+---
+# Major Postgres version
+base_postgres_m: 12
