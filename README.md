@@ -15,7 +15,7 @@ These programs can be installed manually.
 
 # Vagrant Simulation
 
-1. Boot the 4 Virtual Machine you'll need 8Gb free RAM.
+1. Boot these 4 Virtual Machine you'll need 8Gb free RAM (after loading the 3 from [provisioning](https://github.com/playingfield/provisioning/blob/main/README.md).
 
 ```bash
 vagrant up
