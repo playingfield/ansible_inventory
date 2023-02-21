@@ -1,1 +1,4 @@
 ---
+package: httpd
+service: httpd
+webroot: /var/www/html
