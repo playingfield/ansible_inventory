@@ -7,6 +7,12 @@ web:
   hosts:
     ansible01:
 
-db:
+amq:
   hosts:
     ansible02:
+
+development:
+  hosts:
+    localhost:
+  vars:
+    connection: local
