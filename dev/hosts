@@ -7,7 +7,7 @@ web:
   hosts:
     ansible01:
 
-amq:
+db:
   hosts:
     ansible02:
 
