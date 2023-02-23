@@ -13,22 +13,21 @@ all:
 
 development:
   hosts:
-    ansible04:
+    ansible01:
 
-web:
+amq:
   hosts:
-    ansible04:
+    ansible02:
 
 db:
   hosts:
-    ansible01:
-    ansible02:
+    ansible03:
 
 mariadb:
   hosts:
     ansible03:
 
-amq:
+web:
   hosts:
-    ansible03:
+    ansible04:
 
